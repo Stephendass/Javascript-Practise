@@ -57,13 +57,13 @@ area(10, 20)
 //Eg: Javascript Return Type
 // The return statement stops the execution of a function and returns a value.
 
-let a = 10;
-let b = 20;
-function add(a, b) {
-    return a + b;
+let i = 10;
+let j = 20;
+function add(i, j) {
+    return i + j;
 }
-let total = add(a, b);
-console.log(total);
+let result = add(i, j);
+console.log(result);
 
 
 //Conditional Statement
@@ -87,3 +87,14 @@ function testNum(l) {
   
   console.log(testNum(-5));
   // Expected output: "NOT positive"
+
+// For-loop
+//   The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, 
+//   followed by a statement (usually a block statement) to be executed in the loop.
+
+let str = '';
+
+for (let i = 0; i < 50; i++) {
+  str = str + i;
+}
+console.log(str + "") ;
