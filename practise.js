@@ -64,3 +64,26 @@ function add(a, b) {
 }
 let total = add(a, b);
 console.log(total);
+
+
+//Conditional Statement
+
+// In JavaScript we have the following conditional statements:
+
+// Use if to specify a block of code to be executed, if a specified condition is true
+// Use else to specify a block of code to be executed, if the same condition is false
+// Use else if to specify a new condition to test, if the first condition is false
+// Use switch to specify many alternative blocks of code to be executed
+
+function testNum(l) {
+    let result;
+    if (l > 0) {
+      result = 'positive';
+    } else {
+      result = 'NOT positive';
+    }
+    return result;
+  }
+  
+  console.log(testNum(-5));
+  // Expected output: "NOT positive"
