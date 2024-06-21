@@ -57,3 +57,34 @@ var a = 10;
 a++;
 
 console.log(a);
+
+
+function samsung()
+{
+    var a = 10;
+    var b = 20;
+    console.log(a + b);
+}
+samsung();
+
+var fActor = "Vijay";
+var player = "Dhoni";
+var movie = "Soorarai Potru";
+
+function favourite(){
+    console.log("Favourite Actor: " + fActor);
+    console.log("Favourite Player : " + player);
+    console.log("Favourite Movie : " + movie);
+}
+favourite();
+
+
+/*Parameters
+    In Javascript, Parameters => variable or placeholders that you define 
+    when declaring a function. These parameters serve as inputs to hte function and allow you to pass data into
+    th funtion when you call it..
+*/
+function add(a, b){
+    console.log(a+b)
+}
+add(15, 30)
