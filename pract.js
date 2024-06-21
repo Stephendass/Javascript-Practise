@@ -88,3 +88,8 @@ function add(a, b){
     console.log(a+b)
 }
 add(15, 30)
+
+function area(l, b){
+    console.log(l*b)
+}
+area(3, 2);
