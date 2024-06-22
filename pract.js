@@ -105,3 +105,18 @@ function myname(){
 }
 var s = myname()
 console.log(s);
+
+function add(a,b){
+    return (a + b);
+}
+var total = add(10, 20)
+console.log(total)
+
+// Conditional Statement
+/*
+if(condition) {
+
+} else {
+
+}
+*/
