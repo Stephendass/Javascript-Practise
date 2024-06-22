@@ -93,3 +93,15 @@ function area(l, b){
     console.log(l*b)
 }
 area(3, 2);
+
+/*
+    Return Type
+    In Javascript, the return keyword is used within a function to specify the value
+    that the function should produce as it result or return to the caller.
+*/
+
+function myname(){
+    return "Stephendass"
+}
+var s = myname()
+console.log(s);
